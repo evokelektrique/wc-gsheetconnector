@@ -565,6 +565,6 @@ class wc_gsheetconnector_Service {
 	
 }
 
-$wc_gsheetconnector_service = new wc_gsheetconnector_Service();
-$wc_gsheetconnector_service->init();
+// $wc_gsheetconnector_service = new wc_gsheetconnector_Service();
+// $wc_gsheetconnector_service->init();
 // add_action( 'woocommerce_order_status_pending', array( $wc_gsheetconnector_service, 'gscwoo_pending' ) );
